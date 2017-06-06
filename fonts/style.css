@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('icomoon.eot?qap730');
+    src:    url('icomoon.eot?qap730#iefix') format('embedded-opentype'),
+        url('icomoon.ttf?qap730') format('truetype'),
+        url('icomoon.woff?qap730') format('woff'),
+        url('icomoon.svg?qap730#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-navigate_next:before {
+    content: "\e409";
+}
+.icon-dashboard:before {
+    content: "\e871";
+}
+.icon-favorite_border:before {
+    content: "\e87e";
+}
+.icon-question_answer:before {
+    content: "\e8af";
+}
+.icon-home:before {
+    content: "\e88a";
+}
+.icon-shopping_cart:before {
+    content: "\e8cc";
+}
+
